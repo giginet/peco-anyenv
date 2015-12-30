@@ -33,13 +33,13 @@ function prbenv() {
     switch_env
 }
 
-function ppyenv() {
+function pplenv() {
     language_name='Perl'
     fooenv='plenv'
     switch_env
 }
 
-function ppyenv() {
+function pndenv() {
     language_name='Node'
     fooenv='ndenv'
     switch_env
