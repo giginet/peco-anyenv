@@ -1,5 +1,5 @@
 #/usr/bin/env sh
-function switch_env() {
+function _switch_env() {
     if [[ $fooenv == "" || $language_name == "" ]]; then
       exit
     fi
@@ -24,23 +24,23 @@ function switch_env() {
 function ppyenv() {
     language_name='Python'
     fooenv='pyenv'
-    switch_env
+    _switch_env
 }
 
 function prbenv() {
     language_name='Ruby'
     fooenv='rbenv'
-    switch_env
+    _switch_env
 }
 
 function pplenv() {
     language_name='Perl'
     fooenv='plenv'
-    switch_env
+    _switch_env
 }
 
 function pndenv() {
     language_name='Node'
     fooenv='ndenv'
-    switch_env
+    _switch_env
 }
