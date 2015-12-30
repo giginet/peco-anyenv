@@ -24,8 +24,8 @@ $ prbenv --global
 
 - [rbenv](https://github.com/rbenv/rbenv)
 - [pyenv + pyenv-virtualenv](https://github.com/yyuu/pyenv)
-- [plenv](https://github.com/tokuhirom/plen://github.com/tokuhirom/plenv)
-- [ndenv](https://github.com/riywo/nden://github.com/riywo/ndenv)
+- [plenv](https://github.com/tokuhirom/plenv)
+- [ndenv](https://github.com/riywo/ndenv)
 
 ## License
 
