@@ -7,7 +7,7 @@ Switch interpreter versions interactively with fooenv(rbenv, pyenv and others) +
 ## Install
 
 ```sh
-$ git clone git@github.com:giginet/peco-anyenv.git $HOME/.peco-anyenv
+$ git clone https://github.com/giginet/peco-anyenv.git $HOME/.peco-anyenv
 $ printf '\nsource "$HOME/.peco-anyenv/peco-anyenv.sh"' >> $HOME/.bashrc
 ```
 
