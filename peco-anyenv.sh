@@ -1,9 +1,10 @@
-#/usr/bin/env bash
+#/usr/bin/env sh
 function _switch_env() {
   if [[ $fooenv == "" || $language_name == "" ]]; then
     return 0
   fi
 
+  set -f
   versions=`$fooenv versions | peco`
   if [[ $versions == "" ]]; then
     return 0
