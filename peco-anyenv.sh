@@ -47,3 +47,9 @@ function pndenv() {
   fooenv='ndenv'
   _switch_env $1
 }
+
+function pswiftenv() {
+  language_name='Swift'
+  fooenv='swiftenv'
+  _switch_env $1
+}

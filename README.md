@@ -37,6 +37,7 @@ $ prbenv --global
 - [pyenv + pyenv-virtualenv](https://github.com/yyuu/pyenv)
 - [plenv](https://github.com/tokuhirom/plenv)
 - [ndenv](https://github.com/riywo/ndenv)
+- [swiftenv](https://github.com/kylef/swiftenv)
 
 If you'd like to support another envs, of course Pull Request is welcome.
 
