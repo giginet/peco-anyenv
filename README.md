@@ -6,20 +6,26 @@ Switch interpreter versions interactively with fooenv(rbenv, pyenv and others) +
 
 ## Install
 
-### Manual Install
+### [zplug](https://github.com/zplug/zplug)
 
 ```sh
-$ git clone https://github.com/giginet/peco-anyenv.git $HOME/.peco-anyenv
-$ printf '\nsource "$HOME/.peco-anyenv/peco-anyenv.sh"' >> $HOME/.bashrc
+zplug "giginet/peco-anyenv"
 ```
 
-### Use [antigen](https://github.com/zsh-users/antigen)
+### [antigen](https://github.com/zsh-users/antigen)
 
 Add following statements in your `.zshrc`.
 
 ```sh
 antigen bundle giginet/peco-anyenv
 antigen apply
+```
+
+### Manual Install
+
+```sh
+$ git clone https://github.com/giginet/peco-anyenv.git $HOME/.peco-anyenv
+$ printf '\nsource "$HOME/.peco-anyenv/peco-anyenv.sh"' >> $HOME/.bashrc
 ```
 
 ## How to use
